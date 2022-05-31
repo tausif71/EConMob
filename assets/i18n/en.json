@@ -1,0 +1,8 @@
+{
+    "HOME":{
+        "USERNAME":"Username",
+        "PASSWORD":"Password",
+        "FORGOT_PASSWORD":"Forgot Password?",
+        "SIGN_IN":"Sign In"
+    }
+}
