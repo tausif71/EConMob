@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1654001194434,
+  "timestamp": 1654153739467,
   "index": "/EConMob/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "/EConMob/4.53cb75537c63b8343dd1.js",
         "/EConMob/favicon.ico",
         "/EConMob/index.html",
-        "/EConMob/main.bfc0fa33807de0910c38.js",
+        "/EConMob/main.89f5cc365844f305c2de.js",
         "/EConMob/manifest.webmanifest",
         "/EConMob/polyfills.48d30ca5ac637064c40b.js",
         "/EConMob/runtime.85f6e1a8c214057d9bb7.js",
@@ -199,9 +199,9 @@
     "/EConMob/assets/js/select2.min.css": "0262303d6ae851521ba206fdb6c5d0578f06b4f4",
     "/EConMob/assets/js/select2.min.js": "1dfc915bb5ac4913419c7763e360e2db0bf1bbbf",
     "/EConMob/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/EConMob/index.html": "243b7e7fd99e3709572d04b2a90a2cd37353d364",
+    "/EConMob/index.html": "cc26a01009cac8fb43a2335982fab686ced0b997",
     "/EConMob/logo-bg.bdd3ffc4db5178535d74.png": "fea38363c91efade3efff0332d17970866f9bf7f",
-    "/EConMob/main.bfc0fa33807de0910c38.js": "e840bf65c51026c062825bbc8c3c4a2d61e2da38",
+    "/EConMob/main.89f5cc365844f305c2de.js": "f2bb6fe82d630e26237d8aef193175acc74233f9",
     "/EConMob/manifest.webmanifest": "f10a2a07077e23ae20b66e5f781e2a3b2058fad5",
     "/EConMob/polyfills.48d30ca5ac637064c40b.js": "e7a54593504998a9ff2ae3fff1a96ee7033106ed",
     "/EConMob/runtime.85f6e1a8c214057d9bb7.js": "5d187110e763edb3f79b50390f293be459423f25",

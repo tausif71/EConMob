@@ -52,49 +52,50 @@
   <script src="assets/js/cassie.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.min.js"></script>
   <script>
+
     $('[data-toggle="tooltip"]').tooltip();
     $(function () {
-      
-        // INITIALIZE DATEPICKER PLUGIN
+
+      // INITIALIZE DATEPICKER PLUGIN
       $(".onlineoffline").delay(4000).slideUp(200, function () {
         $('.onlineoffline').alert('close');
       });
 
-      $('.openOrderHistoryCanvas').on('click', function(e){
-          e.preventDefault();
-          var target = $(this).attr('href');
-          $(target).addClass('show2');
-        });
+      $('.openOrderHistoryCanvas').on('click', function (e) {
+        e.preventDefault();
+        var target = $(this).attr('href');
+        $(target).addClass('show2');
+      });
 
-      $('.off-canvas-menu').on('click', function(e){
-          e.preventDefault();
-          var target = $(this).attr('href');
-          $(target).addClass('show');
-        });
+      $('.off-canvas-menu').on('click', function (e) {
+        e.preventDefault();
+        var target = $(this).attr('href');
+        $(target).addClass('show');
+      });
 
+
+
+      $('.off-canvas .close').on('click', function (e) {
+        e.preventDefault();
+        $(this).closest('.off-canvas').removeClass('show');
+        $(this).closest('.off-canvas').removeClass('show2');
+      })
+
+
+      $(document).on('click touchstart', function (e) {
         
-
-        $('.off-canvas .close').on('click', function(e){
-          e.preventDefault();
-          $(this).closest('.off-canvas').removeClass('show');
-          $(this).closest('.off-canvas').removeClass('show2');
-        })
-
-
-        $(document).on('click touchstart', function(e){
-          e.stopPropagation();
-
-          // closing of sidebar menu when clicking outside of it
-          if(!$(e.target).closest('.off-canvas-menu').length) {
-            var offCanvas = $(e.target).closest('.off-canvas').length;
-            if(!offCanvas) {
-              $('.off-canvas.show').removeClass('show');
-            }
+        e.stopPropagation();
+        // closing of sidebar menu when clicking outside of it
+        if (!$(e.target).closest('.off-canvas-menu').length) {
+          var offCanvas = $(e.target).closest('.off-canvas').length;
+          if (!offCanvas) {
+            $('.off-canvas.show').removeClass('show');
           }
-        });
+        }
+      });
     })
   </script>
 
-<script src="runtime.85f6e1a8c214057d9bb7.js" defer></script><script src="polyfills.48d30ca5ac637064c40b.js" defer></script><script src="scripts.0eb606d8964ba15f2c01.js" defer></script><script src="main.bfc0fa33807de0910c38.js" defer></script></body>
+<script src="runtime.85f6e1a8c214057d9bb7.js" defer></script><script src="polyfills.48d30ca5ac637064c40b.js" defer></script><script src="scripts.0eb606d8964ba15f2c01.js" defer></script><script src="main.89f5cc365844f305c2de.js" defer></script></body>
 
 </html>
